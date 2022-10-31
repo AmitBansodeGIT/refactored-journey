@@ -1,0 +1,10 @@
+#!/bin/bash
+##To find odd and even number
+a=`expr $1 % 2`
+if [ $a -eq 0 ]
+	then
+	echo "Number is even"
+	else
+	echo "Number is odd"
+fi
+

@@ -1,0 +1,16 @@
+#!/bin/bash
+#script for find out digits of number
+
+if [ $1 -ge 100 -a $1 -lt 1000 ]
+	then
+		echo " This is 3 Digit numbet"
+
+	elif [ $1 -ge 10 -a $1 -lt 100 ]
+		then
+		echo "This number is 2 Digit number"
+			elif [ $1 -ge 0 -a $1 -lt 10 ]
+				then
+				echo "This is single digit number"
+else
+echo "This not valid number"
+fi
